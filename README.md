@@ -1,1 +1,1 @@
-# 100-day-code-pytthon
+# 100-day-code-python
