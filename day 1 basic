@@ -1,0 +1,10 @@
+#brand name project
+#require create a greeting for your program 
+# ask the user for the city that they grew up
+#Ask the user for the name of pet
+#combine the name of their city and oet and show them their band name
+Make sure the input cursor show on the new line see the 
+print ("welcome to the band name generator.")
+x=input("what is your city your grew up ?\n")
+y=input("what is your pet \n")
+print("this is your brand name " + x +""+ y)
