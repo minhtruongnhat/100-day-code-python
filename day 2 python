@@ -1,0 +1,12 @@
+#what was to the total price
+#how much tip would you like to give
+#enter number of person to share cost
+#total bill =total price+tip
+#calculate the cost need to pay for every member
+print("welcome to day 2 code")
+total_price=float(input("enter bil cost"))
+member=int(input("how many number member to share cost"))
+tip=int(input("percent to tip"))
+totalbill=total_price/100*tip+total_price
+z=totalbill/member
+print(z)
