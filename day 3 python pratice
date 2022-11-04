@@ -1,0 +1,11 @@
+weight =float(input("enter your weight in kg:"))
+height = float(input("nhap chieu cao vo dum di m:"))
+bmi = round(weight/height ** 2)
+if bmi<18.5:
+    print(f"your bmi{bmi},you are underweight")
+elif bmi<25:
+    print(f"your bmi{bmi},you are a mormal weight")
+elif bmi<30:
+    print(f"your bmi is {bmi},you are a over weight")
+else:
+    print(f"your bmi is {bmi},you are obesed")
